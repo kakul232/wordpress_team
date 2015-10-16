@@ -1,0 +1,28 @@
+
+/**************************************************************************************************************************
+*					@ Admin dashboard 
+***************************************************************************************************************************/
+
+
+
+ .clear { clear:both;}
+  body { background: inherit !important;}
+  .poll-wrap { padding: 30px 20px; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box;}
+  .poll-wrap textarea { padding: 8px 10px; font-size:16px; color: #333; border:1px solid #ccc; box-shadow:none; margin-right: 5px; margin-bottom:10px; }
+  .mr-bt-20 { margin-bottom:20px;}
+  .mr-tp-20 { margin-top:20px;}
+  .mr-bt-10 { margin-bottom:10px;}
+  
+  .widefat, .widefat tr, .widefat td, .widefat th {
+    border: none;
+   
+}
+
+  hr { border-top: 1px solid #ccc !important; }
+  #logout { color:#EA6153; text-decoration:underline; margin-left:15px; cursor:pointer; }
+  .submit-btn { font-size: 14px; }
+
+.wp-core-ui .button-primary { font-size: 14px;}
+  
+#error { display: block; padding-left: 16.66666667%; clear: both;}
+.wp-admin select {}

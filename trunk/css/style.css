@@ -1,0 +1,76 @@
+ /**************************************************************************************************************************
+*			@ Side panel and Shortcode 
+***************************************************************************************************************************/
+#Poll-frankly .frankly-pollwrap, #Poll-frankly .frankly-pollwrap * { font-family:"proxima-nova-soft";}
+  
+  #Poll-frankly .frankly-pollwrap { padding: 10px 15px 0; border-radius:5px; background:#fff; box-shadow: 0 0 3px rgba(0, 0, 0, 0.3); max-width:320px; margin: 10px auto;}
+#Poll-frankly .frankly-pollwrap h3 { font-size:20px; font-weight:500; color:#333; margin:10px 0 15px;}
+#Poll-frankly .frankly-pollwrap h4 { font-size:16px; font-weight:400; color:#333; margin:15px 0 15px; line-height: 1.4;}  
+ #Poll-frankly  .poll-form input[type="radio"] { width:0px; height:0px; opacity:0; visibility:hidden; display:none; }
+#Poll-frankly 	.poll-form label { display:inline-block; vertical-align:middle;}
+#Poll-frankly 	.poll-form > span { display:inline-block; vertical-align:middle; width:12%; text-align:center;}
+#Poll-frankly 	.poll-form label { display:inline-block; cursor:pointer; width: 42%; min-width:10px; padding-bottom:5px; border-radius: 3px;
+ box-shadow: 0 0 3px rgba(0, 0, 0, 0.25); -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.25); -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.25);  } 
+	#Poll-frankly .poll-form label.yes-btn { background:#ecf4e4; border:1px solid #ecf4e4; border-bottom:2px solid #62c934;}
+	#Poll-frankly .poll-form label.no-btn { background:#fcf2f3; border:1px solid #fcf2f3; border-bottom:2px solid #db4a51;}
+#Poll-frankly .poll-form label img { display: block; margin: 10px auto; }
+#Poll-frankly .poll-form label span { font-size: 20px; color: rgba(0, 0, 0, 0.87); display: block; text-align: center;}
+	
+#Poll-frankly 	.cst-row { margin-left: -15px; margin-right: -15px;}
+#Poll-frankly .responsewrap { background: #ECF5E4; padding: 10px 15px; margin-top: 20px; }
+#Poll-frankly .responsewrap .total { display: block; font-size: 16px; color: #8D8D8D; margin-bottom: 10px; }
+#Poll-frankly .responsewrap .total span { color: #333;}
+#Poll-frankly .responsewrap ul {white-space:nowrap;width:100% ;overflow: auto ;overflow-y: hidden ;max-width: 100%;margin:0px;padding:0px 0 8px;}
+	
+
+		.responsewrap ul::-webkit-scrollbar {
+    height: 3px;
+
+}
+ 
+	.responsewrap ul::-webkit-scrollbar-track {
+    -webkit-box-shadow: none; 
+    border-radius: 0px;
+	background:#eee;
+}
+ 
+	.responsewrap ul::-webkit-scrollbar-thumb {
+    border-radius: 0px;
+    -webkit-box-shadow: none; 
+		background:#ccc;
+}
+	
+	
+#Poll-frankly .responsewrap ul li { display: inline-block; vertical-align: middle; margin: 0px 1px;}
+#Poll-frankly .responsewrap ul li a{ display: block; position: relative; border:none;}
+#Poll-frankly .responsewrap ul li a:after {     left: 12px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(255, 255, 255, 0);
+    border-left-color: #fff;
+    border-width: 8px 11px; }
+
+#Poll-frankly .responsewrap ul li img{ display: block;}
+#Poll-frankly .greyscale{ /*-webkit-filter:grayscale(100%);filter:grayscale(100%);transition:all .5s */}
+#Poll-frankly .greyscale:hover{-webkit-filter:grayscale(0);filter:grayscale(100%);transition:all .5s}
+	#Poll-frankly .scorewrap img { vertical-align: middle; display: inline-block; }
+	#Poll-frankly .scorewrap span, #Poll-frankly .scorewrap b { display: inline-block; vertical-align: middle;margin-left: 8px; font-size: 16px;}
+#Poll-frankly .pogresswrap { height: 13px; border-radius: 3px; background: #E0E0E0; width: 155px; display: inline-block; vertical-align: middle;}
+#Poll-frankly .pogresswrap span { display: block; height: 13px; border-radius: 3px; float: left; margin:0; }
+#Poll-frankly .tell_us { border-radius: 3px; padding: 5px 25px; height:auto; color: #fff; text-transform: uppercase; font-size: 18px; background: #212121; font-weight: 500; float: right; border:none !important; margin:7px 0 0; cursor: pointer;}
+	#Poll-frankly .tell_us:hover { color:#fff;}
+	.clear { clear:both;}
+
+
+
+
+
+
