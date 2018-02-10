@@ -7,8 +7,6 @@ global $wpdb;
 // Team Html
 ?>
 
-
-
 <link rel="stylesheet" href="https://s3-ap-southeast-1.amazonaws.com/asset.frankly.me/css/newsite.css">
 
 
